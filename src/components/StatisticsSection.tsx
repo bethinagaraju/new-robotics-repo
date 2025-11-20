@@ -138,7 +138,7 @@ const StatisticsSection: React.FC = () => {
   });
 
   return (
-    <section className="text-white py-6" ref={ref} style={{ backgroundImage: "linear-gradient(90deg, rgba(35,35,87,1) 0%, rgba(76,109,166,1) 100%)" }}>
+    <section className="text-white py-6" ref={ref} style={{ backgroundImage: `linear-gradient(90deg, rgba(0, 0, 255, 0.95) 0%, rgba(0, 0, 255, 0.6) 100%)` }}>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center">
           {stats.map((stat, index) => (

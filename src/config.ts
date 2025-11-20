@@ -1,1 +1,1 @@
-export const BASE_URL = 'http://zynconfback.theroboticssummit.com';
+export const BASE_URL = 'http://zynconfback.globalbiomedicalsummit.com';

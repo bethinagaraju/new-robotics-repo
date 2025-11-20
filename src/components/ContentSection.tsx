@@ -9,13 +9,11 @@ const ContentSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-[60%_40%] gap-8 md:gap-12 items-center">
           <div style={{ fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" }}>
             <p style={{ fontFamily: "'Manrope', sans-serif" }} className="text-base text-gray-700 mb-4 sm:mb-6">
-              Join the global community of visionaries at the International Conference on Artificial Intelligence,
-               Machine Learning, and Robotics, taking place from July 28–30, 2026, at Crowne Plaza – St. Peter’s Rome, Italy.
-                This world-class event brings together researchers, technologists, industry leaders, and innovators to explore groundbreaking advancements transforming industries and society
+            Join the global community of visionaries at the International Conference on Biomedical Engineering, taking place from July 28–30, 2026, at Crowne Plaza – St. Peter’s Rome, Italy. This premier event unites researchers, scientists, clinicians, and industry experts to explore the latest innovations driving the future of biomedical technology and healthcare.
             </p>
 
             <p style={{ fontFamily: "'Manrope', sans-serif" }} className="text-base text-gray-700 mb-4 sm:mb-6">
-       Engage in insightful discussions and hands-on sessions on deep learning, autonomous systems, generative AI, human–robot collaboration, robotics in healthcare, and ethical AI frameworks. Explore how these technologies are transforming industries, enhancing decision-making, and improving human life through intelligent, adaptive systems. Gain valuable insights from global experts and innovators driving real-world AI and robotics applications. Join this dynamic platform that fosters collaboration, discovery, and innovation, shaping the next era of intelligent and sustainable technological progress.
+Engage in in-depth discussions and interactive sessions on medical imaging, biomaterials, tissue engineering, clinical engineering, biomechanics, wearable sensors, and healthcare robotics. Discover how these advancements are revolutionizing patient care, enhancing diagnostic precision, and improving health outcomes through interdisciplinary research and technological integration. Gain insights from global leaders shaping the next generation of biomedical solutions, and be part of a dynamic platform that encourages collaboration, innovation, and sustainable healthcare transformation.
             </p>
 
             <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0 mt-4">

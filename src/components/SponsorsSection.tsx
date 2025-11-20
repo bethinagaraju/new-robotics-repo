@@ -195,7 +195,7 @@ const SponsorsSection: React.FC = () => {
   return (
     <div id='Sponsors-section' className="col-span-full md:col-span-1 p-4 scroll-mt-40">
       <h1
-        style={{ fontFamily: "'Manrope', sans-serif", color: '#2e376c' }}
+        style={{ fontFamily: "'Manrope', sans-serif", color: '#3434ff' }}
         className="text-center text-xl md:text-2xl font-bold mb-4"
       >
         2025 SPONSORS

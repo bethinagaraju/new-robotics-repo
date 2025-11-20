@@ -106,7 +106,7 @@ const ShowHighlights = () => {
           </h2> */}
 
                     <h1
-            style={{ fontFamily: "'Manrope', sans-serif", color: '#2e376c' }}
+            style={{ fontFamily: "'Manrope', sans-serif", color: '#3333fd' }}
             className="text-2xl md:text-4xl font-bold text-center mb-4"
           >
             2025 SHOW HIGHLIGHTS

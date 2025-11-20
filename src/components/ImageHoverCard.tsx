@@ -74,7 +74,7 @@ const ImageHoverCard = ({ imageUrl, title, description, buttonText, linkUrl }) =
       {/* Bottom Title - only visible on large screens (where overlay is hidden initially) */}
 
       <div
-        className="hidden lg:block absolute bottom-0 left-0 right-0 bg-[#232375] bg-gradient-to-br from-[#232375] to-[#4c6da6] text-white p-4 py-8 text-center
+        className="hidden lg:block absolute bottom-0 left-0 right-0 bg-[#1f1fff] bg-gradient-to-br from-[#4040ff] to-[#6565ff] text-white p-4 py-8 text-center
                    transform translate-y-0 group-hover:translate-y-full
                    transition-transform duration-500 ease-out z-10"
       >

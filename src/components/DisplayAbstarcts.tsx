@@ -21,7 +21,7 @@ const DisplayAbstracts: React.FC = () => {
   useEffect(() => {
     const fetchAbstracts = async () => {
       try {
-        const response = await axios.get("https://robotics-backend-node.vercel.app/api/abstracts");
+        const response = await axios.get("https://biotech-backend-seven.vercel.app/api/abstracts");
         setAbstracts(response.data);
       } catch (error) {
         console.error("Error fetching abstracts:", error);

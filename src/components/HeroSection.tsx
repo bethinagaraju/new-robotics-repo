@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/WhatsApp Video 2025-10-11 at 12.47.18_e854abaa.mp4"
+        src="/Biomedical_Engineering_Conference_Video_Script.mp4"
         autoPlay
         loop
         muted
@@ -28,7 +28,7 @@ const HeroSection: React.FC = () => {
               style={{ fontFamily: 'Manrope, sans-serif' }}
               className="text-xl sm:text-3xl md:text-4xl font-semibold mb-4 sm:mb-6 text-black uppercase leading-snug"
             >
-              Artificial Intelligence, Machine Learning and Robotics Conference
+              International Conference Biomedical Engineering
             </p>
 
             {/* Buttons Section */}

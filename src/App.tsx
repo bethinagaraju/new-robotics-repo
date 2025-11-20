@@ -14,10 +14,14 @@ import ProtectedRoute from './components/ProtectedRoute';
 import TermsAndConditionsPage from './pages/TermsAndConditionsPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import CookiePolicyPage from './pages/CookiePolicyPage';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+
+    <ScrollToTop />
+
       <Routes>
 
         <Route path="/" element={<HomePage />} />

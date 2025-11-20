@@ -554,7 +554,7 @@
 //     form.append("abstractFile", formData.abstractFile as File);
 
 //     try {
-//       const response = await fetch("http://zynconfback.theroboticssummit.com/api/form-submission/submit", {
+//       const response = await fetch("http://zynconfback.globalbiomedicalsummit.com/api/form-submission/submit", {
 //         method: "POST",
 //         body: form,
 //         headers: {
@@ -770,7 +770,7 @@ const AbstractSubmission: React.FC = () => {
   });
 
   const [showSuccess, setShowSuccess] = useState(false);
-  const [fileName, setFileName] = useState<string>('PDF only (max 25MB)');
+  const [fileName, setFileName] = useState<string>('PDF only (max 4MB)');
   const [captchaCode, setCaptchaCode] = useState<string>(generateCaptchaCode());
   const [captchaError, setCaptchaError] = useState<boolean>(false);
 
@@ -823,7 +823,7 @@ const AbstractSubmission: React.FC = () => {
   //   form.append("abstractFile", formData.abstractFile as File);
 
   //   try {
-  //     const response = await fetch("http://zynconfback.theroboticssummit.com/api/form-submission/submit", {
+  //     const response = await fetch("http://zynconfback.globalbiomedicalsummit.com/api/form-submission/submit", {
   //       method: "POST",
   //       body: form,
   //       headers: {
@@ -872,7 +872,7 @@ const AbstractSubmission: React.FC = () => {
   form.append("document", formData.abstractFile);
 
   try {
-    const response = await fetch("https://robotics-backend-node.vercel.app/api/abstracts", {
+    const response = await fetch("https://biotech-backend-seven.vercel.app/api/abstracts", {
       method: "POST",
       body: form,
     });
@@ -891,7 +891,7 @@ const AbstractSubmission: React.FC = () => {
         abstractFile: null,
         securityCode: "",
       });
-      setFileName("PDF only (max 25MB)");
+      setFileName("PDF only (max 4MB)");
       setCaptchaCode(generateCaptchaCode());
     } else {
       const err = await response.text();
@@ -908,26 +908,26 @@ const AbstractSubmission: React.FC = () => {
   return (
     <section className="bg-gray-50 py-16 px-4">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-extrabold text-center text-[#303b71] mb-4">
+        <h2 className="text-4xl font-extrabold text-center text-[#3434ff] mb-4">
           Abstract Submission
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Submit your research abstract for the Artificial Intelligence, Machine Learning, and Robotics Conference 2026.
+          Submit your research abstract for the International Conference on Biomedical Engineering (ICBE-2026).
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 text-center">
           <div className="bg-white p-6 rounded-lg shadow-sm">
-            <Award className="mx-auto mb-3" size={32} style={{ color: '#344177' }} />
+            <Award className="mx-auto mb-3" size={32} style={{ color: '#3434ff' }} />
             <h3 className="font-bold text-lg text-gray-800">Abstract Deadline</h3>
             <p className="text-gray-600">March 15, 2026</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm">
-            <Bell className="mx-auto mb-3" size={32} style={{ color: '#344177' }} />
+            <Bell className="mx-auto mb-3" size={32} style={{ color: '#3434ff' }} />
             <h3 className="font-bold text-lg text-gray-800">Notification</h3>
             <p className="text-gray-600">March 25, 2026</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm">
-            <FileText className="mx-auto mb-3" size={32} style={{ color: '#344177' }} />
+            <FileText className="mx-auto mb-3" size={32} style={{ color: '#3434ff' }} />
             <h3 className="font-bold text-lg text-gray-800">File Format</h3>
             <p className="text-gray-600">PDF</p>
           </div>
@@ -1009,7 +1009,7 @@ const AbstractSubmission: React.FC = () => {
                     maxLength={6}
                     className={`w-full p-3 border rounded-md shadow-sm focus:ring-2 ${captchaError ? 'border-red-500' : 'border-gray-300'}`}
                     placeholder="Enter the code shown above"
-                    style={{'--tw-ring-color': '#344177'} as React.CSSProperties}
+                    style={{'--tw-ring-color': '#3434ff'} as React.CSSProperties}
                   />
                   {captchaError && (
                     <p className="text-red-500 text-sm mt-1">Incorrect code. Please try again.</p>
@@ -1022,7 +1022,7 @@ const AbstractSubmission: React.FC = () => {
             </div>
 
             <div className="text-center pt-4">
-              <button type="submit" className="inline-flex items-center justify-center px-8 py-3 text-white font-bold rounded-lg shadow-lg transition-transform transform hover:scale-105" style={{ backgroundColor: '#344177' }}>
+              <button type="submit" className="inline-flex items-center justify-center px-8 py-3 text-white font-bold rounded-lg shadow-lg transition-transform transform hover:scale-105" style={{ backgroundColor: '#3434ff' }}>
                 <FileText size={18} className="mr-2" />
                 Submit Abstract
               </button>

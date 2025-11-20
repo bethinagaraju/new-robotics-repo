@@ -523,7 +523,7 @@ function PassCard({ pass, onBookNow }) {
       
       {/* Price Section */}
       <div className="my-6 flex items-baseline gap-3">
-        <span className="text-4xl font-extrabold text-[#2d366b]">${pass.price}</span>
+        <span className="text-4xl font-extrabold text-[#3434ff]">${pass.price}</span>
         {/* <span className="text-xl font-medium text-slate-400 line-through">${pass.oldPrice}</span> */}
       </div>
 
@@ -547,7 +547,7 @@ function PassCard({ pass, onBookNow }) {
       <div className="mt-auto pt-8">
         <button
           onClick={() => onBookNow(pass)}
-          className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#2b3267] px-6 py-3 text-lg font-semibold text-white shadow-sm transition hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#3434ff] px-6 py-3 text-lg font-semibold text-white shadow-sm transition hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >
           Register Now
           <ArrowRight size={20} />
@@ -571,7 +571,7 @@ function RegisterPasses() {
       <section className="bg-slate-50 py-16 sm:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-[#2b3267] sm:text-5xl">
+            <h1 className="text-4xl font-bold tracking-tight text-[#3434ff] sm:text-5xl">
               Book Your Passes Now
             </h1>
             <p className="mt-4 text-lg leading-8 text-slate-600">

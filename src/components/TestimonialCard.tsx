@@ -62,7 +62,7 @@ import React from 'react';
 
 const TestimonialCard = ({ imageUrl, quote, name, title, companyLogoUrl }) => {
   return (
-    <div style={{ backgroundImage: "linear-gradient(90deg, rgba(35,35,87,1) 0%, rgba(76,109,166,1) 100%)" }} className="flex flex-col md:flex-row w-full max-w-[90vw] overflow-hidden shadow-lg p-4 md:p-6">
+    <div style={{ backgroundImage: "#0000FF", background: "linear-gradient(90deg, rgba(0, 0, 255, 0.74) 33%, rgba(0, 0, 255, 0.63) 66%, rgba(0, 0, 255, 0.47) 100%)" }} className="flex flex-col md:flex-row w-full max-w-[90vw] overflow-hidden shadow-lg p-4 md:p-6">
       {/* Image section */}
       <div className="flex-shrink-0 ">
         <img
@@ -77,7 +77,7 @@ const TestimonialCard = ({ imageUrl, quote, name, title, companyLogoUrl }) => {
       </div>
 
       {/* Content */}
-      <div className="bg-white flex-1 p-4 md:p-6 relative border-t-8 border-[#313d73] md:mt-0">
+      <div className="bg-white flex-1 p-4 md:p-6 relative border-t-8 border-[#3333fd] md:mt-0">
         {/* Quote mark */}
         {/* <div className="absolute -top-4 left-4 md:-top-6 md:left-6 bg-teal-500 text-white text-3xl md:text-4xl font-bold rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center">
           “
@@ -88,7 +88,7 @@ const TestimonialCard = ({ imageUrl, quote, name, title, companyLogoUrl }) => {
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-x-8 mt-6">
           {/* Name/Title */}
           <div>
-            <div style={{ color: '#394b82' }} className="font-extrabold text-base md:text-lg">{name}</div>
+            <div style={{ color: '#3333fd' }} className="font-extrabold text-base md:text-lg">{name}</div>
             <div className="text-gray-600 text-sm">{title}</div>
           </div>
 

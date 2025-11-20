@@ -38,9 +38,8 @@ const Footer: React.FC = () => {
               <h2 className="text-2xl font-semibold">Let's keep in touch</h2>
             </div>
             <p className="text-lg text-gray-200 leading-relaxed">
-              Sign up to receive the Artificial Intelligence, Machine Learning and Robotics Conference event updates directly to your inbox
-              (special highlights, new speaker announcements, list of exhibiting companies, key
-              attendees and more)
+             Sign up to receive the International Conference on Biomedical Engineering (ICBE-2026) event updates directly to your inbox 
+(special highlights, keynote speaker announcements, list of exhibitors, featured research topics, and more).
             </p>
           </div>
 
@@ -102,7 +101,7 @@ const Footer: React.FC = () => {
             <div className="sm:col-span-2 flex justify-center">
               <button
                 type="submit"
-                className="bg-[#344278] hover:bg-[#46629a] text-white font-bold py-2 px-6 rounded"
+                className="bg-[#3333fd] hover:bg-[#46629a] text-white font-bold py-2 px-6 rounded"
               >
                 SUBMIT
               </button>

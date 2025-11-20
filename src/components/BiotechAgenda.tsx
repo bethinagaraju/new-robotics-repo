@@ -379,53 +379,206 @@ interface ScheduleData {
 // };
 
 
+// const scheduleData: ScheduleData = {
+//   day1: [
+//     {
+//       time: '08:00 - 09:00',
+//       title: 'Registration & Welcome Coffee',
+//       description: 'Check-in, collect your badge, and network with innovators, researchers, and AI enthusiasts over coffee.',
+//       speaker: null,
+//     },
+//     {
+//       time: '09:00 - 10:00',
+//       title: 'Opening Keynote: The Dawn of Artificial Intelligence in the Real World',
+//       description:
+//         'Exploring how AI and machine learning are redefining industries, from autonomous vehicles to predictive healthcare.',
+//       speaker: 'Dr. Meera Krishnan, Chief Scientist at NeuralNext Labs',
+//     },
+//     {
+//       time: '10:00 - 11:30',
+//       title: 'Panel: Machine Learning in Action — From Research to Real Deployment',
+//       description:
+//         'Industry leaders and researchers discuss the latest ML advancements in computer vision, NLP, and edge computing.',
+//       speaker: 'Moderated by Prof. Andrew Koh, Stanford AI Institute',
+//     },
+//     {
+//       time: '11:30 - 12:00',
+//       title: 'Coffee & Networking Break',
+//       description: 'Engage with top engineers and data scientists from global AI companies.',
+//       speaker: null,
+//     },
+//     {
+//       time: '12:00 - 13:30',
+//       title: 'Track 1: Deep Learning and Neural Network Innovations',
+//       description:
+//         'Dive deep into new architectures, training optimization, and large language model breakthroughs.',
+//       speaker: 'Dr. Sarah Williams, Lead Researcher at OpenVision AI',
+//     },
+//     {
+//       time: '13:30 - 14:30',
+//       title: 'Networking Lunch',
+//       description: 'Enjoy a delicious lunch and discuss research ideas with attendees and speakers.',
+//       speaker: null,
+//     },
+//     {
+//       time: '14:30 - 16:00',
+//       title: 'Track 2: Robotics & Human–AI Collaboration',
+//       description:
+//         'Learn how robotics, automation, and reinforcement learning are shaping the next industrial revolution.',
+//       speaker: 'Dr. Rajesh Iyer, Robotics Systems Engineer at Boston Dynamics',
+//     },
+//   ],
+
+//   day2: [
+//     {
+//       time: '08:30 - 09:00',
+//       title: 'Morning Coffee & Networking',
+//       description: 'Start the second day with fresh coffee and new collaborations.',
+//       speaker: null,
+//     },
+//     {
+//       time: '09:00 - 10:00',
+//       title: 'Keynote: The Role of Generative AI in Creative Industries',
+//       description:
+//         'Exploring how large language and image models like ChatGPT, Midjourney, and Sora are transforming creativity.',
+//       speaker: 'Dr. Michael Zhang, Head of AI Research at Synth Labs',
+//     },
+//     {
+//       time: '10:00 - 11:30',
+//       title: 'Panel: Building Responsible & Ethical AI Systems',
+//       description:
+//         'Discussion on bias, transparency, data privacy, and the ethical challenges of deploying AI globally.',
+//       speaker: 'Panelists from Google DeepMind, Meta AI, and Open Ethics Foundation',
+//     },
+//     {
+//       time: '11:30 - 12:00',
+//       title: 'Coffee & Networking Break',
+//       description: 'Discuss research papers and new collaborations during the break.',
+//       speaker: null,
+//     },
+//     {
+//       time: '12:00 - 13:30',
+//       title: 'Workshop: Hands-on Machine Learning with TensorFlow & PyTorch',
+//       description:
+//         'An interactive session on training and deploying ML models efficiently using open-source tools.',
+//       speaker: 'Dr. Priya Menon, ML Engineer at NVIDIA Research',
+//     },
+//     {
+//       time: '13:30 - 14:30',
+//       title: 'Networking Lunch',
+//       description: 'Share ideas and explore collaborations across AI and robotics industries.',
+//       speaker: null,
+//     },
+//     {
+//       time: '14:30 - 16:00',
+//       title: 'Track: AI in Healthcare & Autonomous Systems',
+//       description:
+//         'Discover how AI is revolutionizing medical diagnosis, drug discovery, and self-driving technologies.',
+//       speaker: 'Dr. Rohan Malik, Director of AI at MedRobotics Global',
+//     },
+//   ],
+
+//   day3: [
+//     {
+//       time: '09:00 - 09:30',
+//       title: 'Welcome & Recap of the Conference',
+//       description: 'A quick recap of major insights and announcements from Day 1 and 2.',
+//       speaker: 'Conference Host',
+//     },
+//     {
+//       time: '09:30 - 11:00',
+//       title: 'Panel: The Future of Robotics and Autonomous Intelligence',
+//       description:
+//         'A look at next-gen robotics, swarm intelligence, and the rise of AI-driven automation in industry.',
+//       speaker: 'Panelists from Tesla Robotics, iRobot, and MIT CSAIL',
+//     },
+//     {
+//       time: '11:00 - 11:30',
+//       title: 'Coffee & Networking Break',
+//       description: 'Relax and network before the final sessions.',
+//       speaker: null,
+//     },
+//     {
+//       time: '11:30 - 13:00',
+//       title: 'Workshop: Building Intelligent Agents using Reinforcement Learning',
+//       description:
+//         'Hands-on session to design and train smart agents capable of autonomous decision-making.',
+//       speaker: 'Dr. Ananya Roy, RL Researcher at DeepRL Systems',
+//     },
+//     {
+//       time: '13:00 - 14:00',
+//       title: 'Lunch & Networking',
+//       description: 'Final networking opportunity before the closing ceremony.',
+//       speaker: null,
+//     },
+//     {
+//       time: '14:00 - 15:30',
+//       title: 'AI Innovation Showcase & Startup Pitch',
+//       description:
+//         'AI startups present groundbreaking products in robotics, computer vision, and generative AI.',
+//       speaker: 'Judging Panel: Global AI Investors & Researchers',
+//     },
+//     {
+//       time: '15:30 - 16:00',
+//       title: 'Closing Ceremony & Future Roadmap',
+//       description:
+//         'Conference wrap-up with highlights, awards, and announcement of next year’s AI & Robotics Summit.',
+//       speaker: 'Conference Chairperson',
+//     },
+//   ],
+// };
+
+
 const scheduleData: ScheduleData = {
   day1: [
     {
       time: '08:00 - 09:00',
       title: 'Registration & Welcome Coffee',
-      description: 'Check-in, collect your badge, and network with innovators, researchers, and AI enthusiasts over coffee.',
+      description:
+        'Check-in, collect your badge, and connect with researchers, clinicians, and biomedical innovators over coffee.',
       speaker: null,
     },
     {
       time: '09:00 - 10:00',
-      title: 'Opening Keynote: The Dawn of Artificial Intelligence in the Real World',
+      title: 'Opening Keynote: The Future of Biomedical Engineering in Healthcare',
       description:
-        'Exploring how AI and machine learning are redefining industries, from autonomous vehicles to predictive healthcare.',
-      speaker: 'Dr. Meera Krishnan, Chief Scientist at NeuralNext Labs',
+        'Exploring how biomedical technologies are reshaping modern medicine, from bioimaging to implantable devices.',
+      speaker: 'Dr. Maria Conti, Director of Biomedical Research at Politecnico di Milano',
     },
     {
       time: '10:00 - 11:30',
-      title: 'Panel: Machine Learning in Action — From Research to Real Deployment',
+      title: 'Panel: Innovations in Medical Imaging and Diagnostics',
       description:
-        'Industry leaders and researchers discuss the latest ML advancements in computer vision, NLP, and edge computing.',
-      speaker: 'Moderated by Prof. Andrew Koh, Stanford AI Institute',
+        'Experts discuss state-of-the-art advancements in MRI, CT imaging, and AI-assisted diagnostic tools.',
+      speaker: 'Moderated by Prof. Alessandro Ricci, University of Rome Tor Vergata',
     },
     {
       time: '11:30 - 12:00',
       title: 'Coffee & Networking Break',
-      description: 'Engage with top engineers and data scientists from global AI companies.',
+      description:
+        'Engage with biomedical engineers, healthcare professionals, and medical device innovators.',
       speaker: null,
     },
     {
       time: '12:00 - 13:30',
-      title: 'Track 1: Deep Learning and Neural Network Innovations',
+      title: 'Track 1: Advances in Biomaterials & Tissue Engineering',
       description:
-        'Dive deep into new architectures, training optimization, and large language model breakthroughs.',
-      speaker: 'Dr. Sarah Williams, Lead Researcher at OpenVision AI',
+        'A deep dive into biocompatible materials, regenerative scaffolds, and innovations in tissue regeneration.',
+      speaker: 'Dr. Sarah Müller, Senior Scientist at BioMatrix Labs, Germany',
     },
     {
       time: '13:30 - 14:30',
       title: 'Networking Lunch',
-      description: 'Enjoy a delicious lunch and discuss research ideas with attendees and speakers.',
+      description:
+        'Enjoy a networking lunch and exchange ideas with leading biomedical researchers and professionals.',
       speaker: null,
     },
     {
       time: '14:30 - 16:00',
-      title: 'Track 2: Robotics & Human–AI Collaboration',
+      title: 'Track 2: Biomedical Instrumentation & Clinical Engineering',
       description:
-        'Learn how robotics, automation, and reinforcement learning are shaping the next industrial revolution.',
-      speaker: 'Dr. Rajesh Iyer, Robotics Systems Engineer at Boston Dynamics',
+        'Exploring the latest trends in medical devices, sensors, and hospital engineering systems.',
+      speaker: 'Dr. Rajiv Sharma, Biomedical Engineer at Philips Healthcare',
     },
   ],
 
@@ -433,48 +586,49 @@ const scheduleData: ScheduleData = {
     {
       time: '08:30 - 09:00',
       title: 'Morning Coffee & Networking',
-      description: 'Start the second day with fresh coffee and new collaborations.',
+      description: 'Start your day with coffee and interactive discussions with fellow participants.',
       speaker: null,
     },
     {
       time: '09:00 - 10:00',
-      title: 'Keynote: The Role of Generative AI in Creative Industries',
+      title: 'Keynote: Wearable and Implantable Biomedical Technologies',
       description:
-        'Exploring how large language and image models like ChatGPT, Midjourney, and Sora are transforming creativity.',
-      speaker: 'Dr. Michael Zhang, Head of AI Research at Synth Labs',
+        'Examining how miniaturized electronics, sensors, and smart devices are enabling next-gen medical monitoring.',
+      speaker: 'Dr. Elena Vitale, Head of Biomedical Innovation at MedTech Italia',
     },
     {
       time: '10:00 - 11:30',
-      title: 'Panel: Building Responsible & Ethical AI Systems',
+      title: 'Panel: Biomechanics and Rehabilitation Engineering',
       description:
-        'Discussion on bias, transparency, data privacy, and the ethical challenges of deploying AI globally.',
-      speaker: 'Panelists from Google DeepMind, Meta AI, and Open Ethics Foundation',
+        'A multi-perspective discussion on prosthetics, motion analysis, and devices for neuromuscular rehabilitation.',
+      speaker: 'Panelists from MIT Biomechanics Lab, ETH Zurich, and IIT Delhi',
     },
     {
       time: '11:30 - 12:00',
       title: 'Coffee & Networking Break',
-      description: 'Discuss research papers and new collaborations during the break.',
+      description:
+        'Discuss research papers, technologies, and partnership opportunities during the break.',
       speaker: null,
     },
     {
       time: '12:00 - 13:30',
-      title: 'Workshop: Hands-on Machine Learning with TensorFlow & PyTorch',
+      title: 'Workshop: Biomedical Signal Processing & Analysis',
       description:
-        'An interactive session on training and deploying ML models efficiently using open-source tools.',
-      speaker: 'Dr. Priya Menon, ML Engineer at NVIDIA Research',
+        'Hands-on training on ECG, EEG, and EMG data analysis using advanced computational and AI tools.',
+      speaker: 'Dr. Priya Mehta, Biomedical Data Scientist at Siemens Healthineers',
     },
     {
       time: '13:30 - 14:30',
       title: 'Networking Lunch',
-      description: 'Share ideas and explore collaborations across AI and robotics industries.',
+      description: 'Continue discussions and collaborations over lunch with speakers and attendees.',
       speaker: null,
     },
     {
       time: '14:30 - 16:00',
-      title: 'Track: AI in Healthcare & Autonomous Systems',
+      title: 'Track: Robotics and Automation in Surgery',
       description:
-        'Discover how AI is revolutionizing medical diagnosis, drug discovery, and self-driving technologies.',
-      speaker: 'Dr. Rohan Malik, Director of AI at MedRobotics Global',
+        'Explore innovations in robotic-assisted surgery, soft robotics, and precision biomedical systems.',
+      speaker: 'Dr. Luca Bianchi, Chief Robotic Surgeon, San Raffaele Hospital, Milan',
     },
   ],
 
@@ -482,47 +636,48 @@ const scheduleData: ScheduleData = {
     {
       time: '09:00 - 09:30',
       title: 'Welcome & Recap of the Conference',
-      description: 'A quick recap of major insights and announcements from Day 1 and 2.',
+      description: 'A summary of insights and highlights from the first two days of the conference.',
       speaker: 'Conference Host',
     },
     {
       time: '09:30 - 11:00',
-      title: 'Panel: The Future of Robotics and Autonomous Intelligence',
+      title: 'Panel: Biomedical Innovations for Sustainable Healthcare',
       description:
-        'A look at next-gen robotics, swarm intelligence, and the rise of AI-driven automation in industry.',
-      speaker: 'Panelists from Tesla Robotics, iRobot, and MIT CSAIL',
+        'Exploring sustainability, affordability, and accessibility in biomedical engineering and device design.',
+      speaker: 'Panelists from WHO, Medtronic, and Johns Hopkins Biomedical Center',
     },
     {
       time: '11:00 - 11:30',
       title: 'Coffee & Networking Break',
-      description: 'Relax and network before the final sessions.',
+      description: 'Take a short break to refresh and connect with exhibitors.',
       speaker: null,
     },
     {
       time: '11:30 - 13:00',
-      title: 'Workshop: Building Intelligent Agents using Reinforcement Learning',
+      title: 'Workshop: Emerging Trends in Nanotechnology for Medicine',
       description:
-        'Hands-on session to design and train smart agents capable of autonomous decision-making.',
-      speaker: 'Dr. Ananya Roy, RL Researcher at DeepRL Systems',
+        'Interactive session on nanomaterials for targeted drug delivery and biomedical imaging applications.',
+      speaker: 'Dr. Ananya Patel, Research Director, NanoBioTech Research Institute',
     },
     {
       time: '13:00 - 14:00',
       title: 'Lunch & Networking',
-      description: 'Final networking opportunity before the closing ceremony.',
+      description:
+        'Final opportunity to network with delegates, sponsors, and research partners.',
       speaker: null,
     },
     {
       time: '14:00 - 15:30',
-      title: 'AI Innovation Showcase & Startup Pitch',
+      title: 'Biomedical Innovation Showcase & Research Pitch',
       description:
-        'AI startups present groundbreaking products in robotics, computer vision, and generative AI.',
-      speaker: 'Judging Panel: Global AI Investors & Researchers',
+        'Researchers and startups present groundbreaking biomedical devices and healthcare technologies.',
+      speaker: 'Judging Panel: Global Biomedical Experts & Investors',
     },
     {
       time: '15:30 - 16:00',
       title: 'Closing Ceremony & Future Roadmap',
       description:
-        'Conference wrap-up with highlights, awards, and announcement of next year’s AI & Robotics Summit.',
+        'Conference wrap-up, awards, and announcement of the next International Biomedical Engineering Conference.',
       speaker: 'Conference Chairperson',
     },
   ],
@@ -530,9 +685,10 @@ const scheduleData: ScheduleData = {
 
 
 
+
 const BiotechAgenda: React.FC = () => {
   const [activeDay, setActiveDay] = useState<number>(1);
-  const themeColor = '#2e366c';
+  const themeColor = '#3434ff';
 
   const renderSchedule = (day: ScheduleItem[]) =>
     day.map((item, index) => (
@@ -543,8 +699,8 @@ const BiotechAgenda: React.FC = () => {
           </p>
         </div>
         <div className="w-full sm:w-3/4 pl-4 sm:border-l border-gray-200">
-          <h3 className="text-base font-bold text-gray-800 sm:text-xl" style={{ fontFamily: "'Manrope', sans-serif" }}>{item.title}</h3>
-          <p className="text-gray-600 mt-1 " style={{ fontFamily: "'Manrope', sans-serif" }}>{item.description}</p>
+          <h3 className="text-sm font-bold text-gray-800 sm:text-base" style={{ font: "sans-serif" }}>{item.title}</h3>
+          <p className="text-gray-600 mt-1 text-base" style={{ font: "sans-serif" }}>{item.description}</p>
           {/* {item.speaker && (
             <div className="flex items-center mt-3 text-gray-500">
               <User size={16} className="mr-2 flex-shrink-0" />
@@ -560,14 +716,14 @@ const BiotechAgenda: React.FC = () => {
       <section id='agenda-section' className="bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h1
-            style={{ fontFamily: "'Manrope', sans-serif", color: '#2e376c' }}
+            style={{ fontFamily: "'Manrope', sans-serif", color: '#3434ff' }}
             className="text-2xl md:text-4xl font-bold text-center mb-4"
           >
             CONFERENCE AGENDA
           </h1>
 
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto" style={{ fontSize: '1rem', font: "sans-serif" }}>
-            Experience three days of inspiring keynotes, hands-on workshops, and cutting-edge innovations in AI, ML, and Robotics.
+            Join the International Conference on Biomedical Engineering to explore the latest advancements in biomedical applications.
           </p>
 
           {/* Day Toggle Buttons */}
@@ -601,7 +757,7 @@ const BiotechAgenda: React.FC = () => {
           <div className="flex justify-center mt-10">
             <Link to="/register">
               <a
-                className="bg-[#2e366c] hover:bg-[#4967a0] text-white px-6 py-2 font-semibold text-sm transition-colors"
+                className="bg-[#3434ff] hover:bg-[#6565ff] text-white px-6 py-2 font-semibold text-sm transition-colors"
               >
                 Register Now
               </a>

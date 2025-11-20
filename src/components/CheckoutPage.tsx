@@ -947,12 +947,12 @@ export default function CheckoutPage() {
         {/* Header */}
         <div className="text-center mb-8">
 
-          <h1 className="text-2xl sm:text-3xl font-bold text-[#5c52d1]">
+          <h1 className="text-2xl sm:text-3xl font-bold text-[#3434ff]">
             Secure Your Seat Today
           </h1>
 
           <p className="text-gray-500 mt-2 text-sm">
-            Choose your pass for the Artificial Intelligence, Machine Learning and Robotics Conference.
+            Choose your pass for the International Conference Biomedical Engineering.
           </p>
 
         </div>

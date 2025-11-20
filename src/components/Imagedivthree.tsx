@@ -9,7 +9,7 @@ function Imagedivthree() {
   const eventData = [
 
     {
-      imageUrl: 'WhatsApp Image 2025-10-11 at 12.55.28_b46879a8.jpg', // Replace with an image of the venue or tech theme
+      imageUrl: 'Untitled.jpg', // Replace with an image of the venue or tech theme
       title: 'ABOUT',
       description: 'Learn about ROBOTICS-2026, a global hub for AI, machine learning, and robotics advancements. Join us July 28–30, 2026, in Rome to connect with pioneers shaping intelligent technologies.',
       buttonText: 'Discover More',
@@ -23,7 +23,7 @@ function Imagedivthree() {
       linkUrl: '/#Speakers-section',
     },
     {
-      imageUrl: 'Untitled-101.jpeg', // Replace with an agenda graphic or Rome skyline
+      imageUrl: 'Untitled-10101.jpg', // Replace with an agenda graphic or Rome skyline
       title: 'SCHEDULE',
       description: 'Plan your ROBOTICS-2026 experience with keynotes, workshops, and demos from July 28–30, 2026, in Rome. Download the full agenda and join the innovation journey!',
       buttonText: 'See Schedule',

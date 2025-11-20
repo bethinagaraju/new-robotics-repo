@@ -108,7 +108,7 @@ const ThankyouPage: React.FC = () => {
 
       {/* Footer Text */}
       <footer className="mt-10 text-sm text-gray-600 leading-relaxed">
-        © 2026 All rights reserved. AI, ML & Robotics Conference <br />
+        © 2026 All rights reserved. International Conference Biomedical Engineering <br />
         Artificial Intelligence, Machine Learning and Robotics Conference
       </footer>
     </div>

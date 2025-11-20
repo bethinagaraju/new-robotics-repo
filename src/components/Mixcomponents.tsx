@@ -8,52 +8,34 @@ import SponsorsSection from './SponsorsSection';
 function Mixcomponents() {
   const speakersData = [
     {
-      imageUrl: 'speakerone.png',
-      name: 'Michael Cafarella',
-      title: 'Massachusetts Institute of Technology, USA',
+      imageUrl: 'speakerone-jpg.jpg',
+      name: 'Shuji Nakamura',
+      title: 'Nobel Prize in Chemistry',
       company: 'EDF Renewables'
     },
     {
-      imageUrl: 'speakertwo.png',
-      name: 'Chris Atkenson',
-      title: 'Carnegie Mellon University, USA',
+      imageUrl: 'Gemini_Generated_Image_t9b2kot9b2kot9b2.jpg',
+      name: 'John M. Essigmann',
+      title: 'Massachusetts Institute of Technology, USA',
       company: 'McKinsey'
     },
     {
-      imageUrl: 'speaker3.png',
-      name: 'Yanda Li',
-      title: 'Tsinghua University, China',
+      imageUrl: 'Gemini_Generated_Image_c3h0tdc3h0tdc3h0.jpg',
+      name: 'Daniel Franklin',
+      title: 'University of Toronto, USA',
       company: 'McKinsey'
     },
     {
-      imageUrl: 'speaker04.png',
-      name: 'Samuel Coogan',
-      title: 'Georgia institute of Technology, USA',
+      imageUrl: 'Gemini_Generated_Image_jqk2sjjqk2sjjqk2.jpg',
+      name: 'Young Bin Choy',
+      title: 'Seoul National University, South Korea',
       company: 'Deloitte'
     },
     {
-      imageUrl: 'Gemini_Generated_Image_v41z06v41z06v41z.png',
-      name: 'Leonidas Guibas',
-      title: 'Stanford University, USA',
+      imageUrl: 'Gemini_Generated_Image_oytya2oytya2oyty.jpg',
+      name: 'Domitilla Del Vecchio',
+      title: 'Massachusetts Institute of Technology, USA',
       company: 'KPMG'
-    },
-    {
-      imageUrl: 'Gemini_Generated_Image_19cov119cov119co.png',
-      name: 'Jeannette Bohg',
-      title: 'Stanford University, USA',
-      company: 'KPMG, UK'
-    },
-    {
-      imageUrl: 'Gemini_Generated_Image_n1hse1n1hse1n1hs.png',
-      name: 'Gustavo Alonso',
-      title: 'ETH Zurich, Switzerland',
-      company: 'Ministry of Energy & Infrastructure, UAE'
-    },
-    {
-      imageUrl: 'Gemini_Generated_Image_cksm8zcksm8zcksm.png',
-      name: 'Weidong Chen',
-      title: 'Shanghai Jiao Tong University, China',
-      company: 'Shanghai Jiao Tong University, China'
     },
     
   ];
@@ -75,7 +57,7 @@ function Mixcomponents() {
   <div className="col-span-full md:col-span-4 p-4">
 
     <h1
-      style={{ fontFamily: "'Manrope', sans-serif", color: '#2e376c', paddingBottom: '0.5rem' }}
+      style={{ fontFamily: "'Manrope', sans-serif", color: '#3434ff', paddingBottom: '0.5rem' }}
       className="text-center text-xl md:text-3xl font-bold mb-6"
     >
       SPEAKERS
@@ -103,7 +85,7 @@ function Mixcomponents() {
 
     <div className="mt-10">
       <h1
-        style={{ fontFamily: "'Manrope', sans-serif", color: '#2e376c', textTransform: 'uppercase' }}
+        style={{ fontFamily: "'Manrope', sans-serif", color: '#3434ff', textTransform: 'uppercase' }}
         className="text-center text-2xl md:text-3xl font-bold mb-4"
       >
         Universities Participating in the Conference

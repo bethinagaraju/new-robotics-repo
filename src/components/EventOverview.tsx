@@ -9,18 +9,18 @@ const EventOverview = () => {
       id: 1,
       imageUrl: "ilias-photo.png",
       
-      quote: "RoboticsWorldSummit.com for the World Summit and Expo on Robotics, AI, and Machine Learning (ROBOTICS-2026), I am excited to participate in this prestigious event, which brings together global leaders to address the latest advancements and challenges in AI, machine learning, and robotics. I believe this conference offers a unique platform for knowledge sharing, collaboration, and driving innovation in the field of AI and robotics.",
+      quote: "I am thrilled to participate in the International Conference on Biomedical Engineering (ICBE-2026), a globally renowned event that brings together top researchers, healthcare professionals, and innovators to discuss cutting-edge developments in biomedical technology. This conference provides an exceptional platform for collaboration, knowledge exchange, and advancing innovations that are transforming modern healthcare.",
       name: "DR. ROGER ACHKAR",
-      title: "General Manager\nPath Robotics",
-      companyLogoUrl: "Untitled-path.png",
+      title: "General Manager\nEpic Bio",
+      companyLogoUrl: "new_phhc_portco_epic.webp",
     },
     {
       id: 2,
       imageUrl: "roger-achkar-photo-mar-2025-crop.jpg",
-      quote: "GWCN is proud to support the World Conference on Robotics, AI, and Machine Learning (ROBOTICS-2026), a prestigious event uniting leaders to tackle AI and robotics challenges. At GWCN, we advance technological innovation and believe this conference offers an invaluable platform for knowledge sharing, collaboration, and intelligent automation. We're excited for the impactful discussions and solutions ahead, and look forward to contributing to this transformative dialogue.",
+      quote: "The International Conference on Biomedical Engineering (ICBE-2026) is a distinguished event bringing together global leaders to advance the future of healthcare through technology and innovation. This conference provides an exceptional platform for collaboration, knowledge sharing, and transformative biomedical solutions. We look forward to engaging in impactful discussions and contributing to innovations that enhance patient care and medical technology worldwide.",
       name: "Dr. Roger Achkar",
-      title: "Founder\nkodiak-robotics",
-      companyLogoUrl: "kodik.png",
+      title: "Senior Manager\nLindus Health",
+      companyLogoUrl: "108008.png",
     },
     // Add more if needed
   ];
@@ -56,7 +56,7 @@ const EventOverview = () => {
             <button
               key={idx}
               className={`w-3 h-3 rounded-full transition ${
-                idx === current ? 'bg-[#26285d]' : 'bg-gray-300'
+                idx === current ? 'bg-[#3333fd]' : 'bg-gray-300'
               }`}
               onClick={() => setCurrent(idx)}
               aria-label={`Go to slide ${idx + 1}`}

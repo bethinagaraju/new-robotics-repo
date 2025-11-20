@@ -115,7 +115,7 @@ const EndFooter: React.FC = () => {
       <div className="container mx-auto px-16 py-10 grid grid-cols-1 md:grid-cols-4 gap-8 border-b border-gray-300">
   {/* Opening Times */}
   <div>
-    <h3 className="flex items-center gap-2 text-[#2e376d] font-semibold text-lg mb-4">
+    <h3 className="flex items-center gap-2 text-[#3333fd] font-semibold text-lg mb-4">
       <FaCalendarAlt /> OPENING TIMES
     </h3>
     <ul className="mb-4 space-y-2">
@@ -125,7 +125,7 @@ const EndFooter: React.FC = () => {
     </ul>
 
     <button
-      className="bg-[#3f558d] text-white py-2 px-4"
+      className="bg-[#3333fd] text-white py-2 px-4"
       onClick={() => window.open(googleCalUrl, "_blank")}
     >
       ADD TO CALENDAR
@@ -134,7 +134,7 @@ const EndFooter: React.FC = () => {
 
   {/* Quick Links */}
   <div>
-    <h3 className="flex items-center gap-2 text-[#2e376d] font-semibold text-lg mb-4">
+    <h3 className="flex items-center gap-2 text-[#3333fd] font-semibold text-lg mb-4">
       <FaLink /> QUICK LINKS
     </h3>
 
@@ -151,29 +151,29 @@ const EndFooter: React.FC = () => {
 
   {/* Contact Us */}
   <div>
-    <h3 className="flex items-center gap-2 text-[#2e376d] font-semibold text-lg mb-4">
+    <h3 className="flex items-center gap-2 text-[#3333fd] font-semibold text-lg mb-4">
       <FaAt /> CONTACT US
     </h3>
 
     <div className="space-y-3">
       <div>
         <p><strong>General Enquiry</strong></p>
-        <p>secretary@theroboticssummit.com</p>
+        <p>secretary@globalbiomedicalsummit.com</p>
       </div>
       <div>
         <p><strong>Marketing Enquiry</strong></p>
-        <p>sponsorship@theroboticssummit.com</p>
+        <p>sponsorship@globalbiomedicalsummit.com</p>
       </div>
       <div>
         <p><strong>Sales Enquiry</strong></p>
-        <p>Delegate@theroboticssummit.com</p>
+        <p>Delegate@globalbiomedicalsummit.com</p>
       </div>
     </div>
   </div>
 
   {/* Follow Us (moved here to the empty space) */}
   <div className="flex flex-col items-start">
-    <h3 className="flex items-center gap-2 text-[#2e376d] font-semibold text-lg mb-4">
+    <h3 className="flex items-center gap-2 text-[#3333fd] font-semibold text-lg mb-4">
       <FaThumbsUp /> FOLLOW US
     </h3>
 
@@ -215,7 +215,7 @@ const EndFooter: React.FC = () => {
 
           </ul>
 
-          <span>© 2026 All rights reserved. AI, ML & Robotics Conference</span>
+          <span>© 2026 All rights reserved. International Conference Biomedical Engineering</span>
 
         
         </div>

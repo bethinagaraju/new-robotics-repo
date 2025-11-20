@@ -553,7 +553,7 @@ function Dashboard() {
     <div className="max-w-7xl mx-auto py-4 md:py-6 px-2 md:px-5 space-y-5 md:space-y-9">
     
             <h1
-        style={{ fontFamily: "'Manrope', sans-serif", color: '#2e376c' }}
+        style={{ fontFamily: "'Manrope', sans-serif", color: '#3434ff' }}
         className="text-center text-2xl md:text-3xl font-bold mb-4"
       >
         {/* WHO'S PRACTICING THE CONFERENCE, 2026 */}

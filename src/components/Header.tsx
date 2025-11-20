@@ -12,13 +12,13 @@ const Header = () => {
       <div className="border-b">
         <div className="container mx-auto px-4 h-[90px] sm:h-[120px] flex items-center justify-between">
           {/* Left Section */}
-          <div className="flex h-full items-center divide-x divide-gray-200">
+          <div className="flex h-full items-center ">
             {/* Logo */}
             <div className="h-full flex items-center">
               <img
-                src="aimllogo.jpg"
+                src="bio_(1)[1].png"
                 alt="Artificial Intelligence, Machine Learning and Robotics Conference Logo"
-                className="h-[70px] sm:h-[120px] w-auto object-contain transition-all duration-300"
+                className="h-[70px] sm:h-[80px] w-auto object-contain transition-all duration-300"
               />
             </div>
 
@@ -66,8 +66,7 @@ const Header = () => {
       {/* Bottom Nav (desktop only) */}
       <nav className="hidden md:flex w-full h-[50px] flex items-center"
         style={{
-          backgroundImage:
-            "linear-gradient(90deg, rgba(35,35,87,1) 0%, rgba(76,109,166,1) 100%)",
+          backgroundImage: `linear-gradient(90deg, rgba(0, 0, 255, 0.95) 0%, rgba(0, 0, 255, 0.6) 100%)`,
         }}
       >
         <div className="container mx-auto px-4 hidden md:flex items-center justify-center gap-9 text-white font-semibold text-[16px]">
